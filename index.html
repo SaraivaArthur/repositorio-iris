@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Iris Travassos | Programadora front end</title>
+  <meta name="description" content="Portfólio de Iris Travassos, programadora front end. Python, JavaScript, React, HTML e CSS.">
+  <meta name="theme-color" content="#9C1F5C">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=Fraunces:opsz,wght@9..144,500;9..144,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+  <a class="skip" href="#conteudo">Ir para o conteúdo</a>
+
+  <header class="topo">
+    <div class="topo__interno">
+      <a class="marca" href="#sobre" aria-label="Iris Travassos, início">Iris Travassos</a>
+
+      <button class="menu-botao" type="button" aria-expanded="false" aria-controls="menu">
+        <span class="menu-botao__texto">Menu</span>
+      </button>
+
+      <nav id="menu" class="menu" aria-label="Seções do portfólio">
+        <a href="#sobre">Quem sou eu</a>
+        <a href="#tecnologias">Tecnologias</a>
+        <a href="#repositorio">Repositório</a>
+        <a href="#contatos">Contatos</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+
+    <!-- 1. Quem sou eu -->
+    <section id="sobre" class="sobre">
+      <div class="sobre__texto">
+        <p class="sobre__funcao">Programadora front end</p>
+        <h1>Iris Travassos</h1>
+        <p class="sobre__intro">
+          Transformo ideias em páginas e interfaces que funcionam bem em qualquer tela.
+          Trabalho com Python, JavaScript, React, HTML e CSS.
+        </p>
+        <div class="acoes">
+          <a class="botao botao--cheio" href="#tecnologias">Ver tecnologias</a>
+          <a class="botao botao--vazado" href="#contatos">Entrar em contato</a>
+        </div>
+      </div>
+
+      <div class="sobre__codigo" aria-hidden="true">
+        <div class="janela">
+          <div class="janela__barra">
+            <span></span><span></span><span></span>
+            <small>iris.js</small>
+          </div>
+<pre class="janela__corpo"><code><span class="linha"><span class="k">const</span> <span class="v">iris</span> <span class="p">=</span> <span class="p">{</span></span>
+<span class="linha">  <span class="c">nome</span><span class="p">:</span> <span class="s">"Iris Travassos"</span><span class="p">,</span></span>
+<span class="linha">  <span class="c">funcao</span><span class="p">:</span> <span class="s">"Programadora front end"</span><span class="p">,</span></span>
+<span class="linha">  <span class="c">tecnologias</span><span class="p">:</span> <span class="p">[</span></span>
+<span class="linha">    <span class="s">"Python"</span><span class="p">,</span> <span class="s">"JavaScript"</span><span class="p">,</span></span>
+<span class="linha">    <span class="s">"React"</span><span class="p">,</span> <span class="s">"HTML"</span><span class="p">,</span> <span class="s">"CSS"</span><span class="p">,</span></span>
+<span class="linha">  <span class="p">],</span></span>
+<span class="linha"><span class="p">};</span></span></code></pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. Tecnologias -->
+    <section id="tecnologias" class="secao">
+      <div class="secao__cabecalho">
+        <h2>Tecnologias</h2>
+        <p>As ferramentas que uso para construir e dar vida aos meus projetos.</p>
+      </div>
+
+      <ul class="tecnologias">
+        <li>
+          <h3>Python</h3>
+          <p>Lógica de programação e scripts.</p>
+        </li>
+        <li>
+          <h3>JavaScript</h3>
+          <p>Interatividade e comportamento das páginas.</p>
+        </li>
+        <li>
+          <h3>React</h3>
+          <p>Interfaces construídas com componentes.</p>
+        </li>
+        <li>
+          <h3>HTML</h3>
+          <p>Estrutura e semântica das páginas.</p>
+        </li>
+        <li>
+          <h3>CSS</h3>
+          <p>Layout, cores e responsividade.</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- 3. Repositório -->
+    <section id="repositorio" class="secao secao--repo">
+      <div class="repo">
+        <div class="repo__texto">
+          <h2>Repositório do ensino técnico</h2>
+          <p>
+            Aqui está o código que desenvolvi durante o ensino técnico
+            na escola Major Telmo.
+          </p>
+        </div>
+        <a class="botao botao--claro" href="https://github.com/IrisTravassos" target="_blank" rel="noopener noreferrer">
+          Abrir repositório no GitHub
+        </a>
+      </div>
+    </section>
+
+    <!-- 4. Contatos -->
+    <section id="contatos" class="secao secao--contato">
+      <h2>Contatos</h2>
+      <p>Acompanhe meus projetos e fale comigo pelo GitHub.</p>
+      <a class="contato-link" href="https://github.com/IrisTravassos" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false">
+          <path fill="currentColor" d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56v-2c-3.2.7-3.87-1.37-3.87-1.37-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.69 1.25 3.35.96.1-.74.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.78 0c2.2-1.49 3.17-1.18 3.17-1.18.62 1.59.23 2.76.11 3.05.74.81 1.18 1.83 1.18 3.09 0 4.42-2.69 5.39-5.25 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/>
+        </svg>
+        github.com/IrisTravassos
+      </a>
+    </section>
+
+  </main>
+
+  <footer class="rodape">
+    <p>&copy; <span id="ano">2026</span> Iris Travassos. Feito com HTML, CSS e JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
